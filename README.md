@@ -3,10 +3,9 @@
 
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/4d/e4/27/4de42774d0d1c1fd56b7b1c1d1f7eb8d.gif" />
 
-- 🔭 I’m currently working on **JavaFX Hotel Reservation System**
 - 🌱 I’m learning **Spring Boot, ReactJS, and Neural Networks**
 - 💬 Ask me about **Java, MySQL, Flask, DBMS Projects**
-- 📫 How to reach me: **sajuu@example.com**
+- 📫 How to reach me: **satyaprakashrout435@gmail.com**
 - ⚡ Fun fact: *I love building real-world projects!*
 
 ---
