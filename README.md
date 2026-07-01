@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Satya Prakash Rout</h1>
+<h1 align="center">Hi 👋, I'm Satyaprakash Rout</h1>
 <h3 align="center">💻 B.Tech CSE'27 | AIML Enthusiast | Full-Stack Developer | Programmer</h3>
 
 <p align="center">
@@ -51,7 +51,7 @@
 
 ### 📌 LinkedIn
 <p align="center">
-  <a href="https://www.linkedin.com/in/satya-prakash-rout-923393289/" target="_blank">
+  <a href="https://www.linkedin.com/in/satyaprakash-rout-923393289/" target="_blank">
     <img src="https://img.shields.io/badge/Satya%20Prakash%20Rout-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
