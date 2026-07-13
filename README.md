@@ -1,141 +1,89 @@
-<!-- ========================= -->
-<!--        HERO BANNER        -->
-<!-- ========================= -->
-
-<p align="center">
-  <img src="./assets/dark.svg#gh-dark-mode-only" width="100%" alt="GitHub Banner"/>
-  <img src="./assets/light.svg#gh-light-mode-only" width="100%" alt="GitHub Banner"/>
-</p>
-
-<h1 align="center">
-Hi 👋 I'm Satyaprakash Rout
-</h1>
+<h1 align="center">Hi 👋, I'm Satyaprakash Rout</h1>
 
 <h3 align="center">
-💻 B.Tech CSE'27 • AI/ML Enthusiast • Full Stack Developer • Java Programmer
+💻 Software Engineering Student | AI & Machine Learning Enthusiast | Full Stack Developer
 </h3>
 
 <p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=650&lines=AI+%26+Machine+Learning+Enthusiast;Full+Stack+Developer;Java+%7C+Python+Developer;Building+Real-World+AI+Applications;Always+Learning+Something+New+🚀" />
+</p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Enthusiast;Java+%7C+Python+Developer;DSA+Learner;Always+Learning+Something+New+🚀" />
-
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=SatyaPrakash252&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 ---
 
-# 👨‍💻 About Me
+# 🙋‍♂️ About Me
 
-- 🎓 B.Tech Computer Science Engineering (2027)
-- 🌱 Currently preparing for **Infosys, Cognizant & Product Based Companies**
-- 💻 Passionate about Backend Development, AI & Machine Learning
-- 🧠 Practicing Data Structures & Algorithms in Java
-- 🚀 Building Full Stack Applications with React + FastAPI + Flask
-- 🤖 Interested in Computer Vision, NLP and Intelligent Systems
-- 🏆 Love solving real-world problems using technology
-
----
-
-# 🚀 Current Focus
-
-- 📚 DSA in Java
-- 🤖 Machine Learning
-- ⚡ FastAPI
-- 🌐 React
-- ☁️ Backend Development
-- 🧠 System Design
-- 💼 Placement Preparation
+- 🎓 B.Tech Computer Science Engineering (2023–2027)
+- 🌱 Currently learning **Machine Learning, Generative AI, FastAPI & System Design**
+- 💼 Preparing for **Software Engineering & Product-Based Company Interviews**
+- 🤖 Passionate about **AI, Backend Development and Intelligent Systems**
+- 🧠 Strong foundation in **Java, Python, Data Structures & Algorithms**
+- 🚀 Building production-ready Full Stack and AI-powered applications
+- 📫 Reach me at **satyaprakashrout435@gmail.com**
 
 ---
 
-# 🛠 Tech Stack
+# 🚀 Featured Projects
 
-### Languages
+### 🩺 Project CURA
+> Agentic Clinical Documentation Platform
 
-<p>
-
-<img src="https://skillicons.dev/icons?i=java,python,c,js,html,css"/>
-
-</p>
-
-### Frameworks
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=react,fastapi,flask,nodejs,express"/>
-
-</p>
-
-### Database
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb"/>
-
-</p>
-
-### Tools
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma"/>
-
-</p>
+- FastAPI
+- Next.js
+- Groq
+- JWT Authentication
+- Docker
+- AI Agents
 
 ---
 
-# 📂 Featured Projects
+### 🌱 Plant Health Detection
 
-### 🤖 Diabetes Prediction using Machine Learning
-
-- Python
-- Scikit-Learn
-- Flask
-- ML Classification
+CNN-based plant disease detection using TensorFlow & OpenCV.
 
 ---
 
-### 🌉 VaakSetu
+### 🎬 Movie Portal
 
-Real-Time Dialect-Aware Voice AI with Multi-Signal Threat Detection for Emergency Helpline.
-
-Tech:
-
-- Python
-- NLP
-- Whisper
-- LLM
-- Voice AI
+Netflix-style movie platform built using Flask, SQLite & TMDB API.
 
 ---
 
-### 🌍 Air Quality & Heatwave Prediction
+### 🏏 Cricket Performance Prediction
 
-Machine Learning based environmental prediction system using weather datasets.
-
----
-
-### 🎫 AI Museum Ticket Booking Chatbot
-
-- React
-- Node.js
-- MongoDB
-- Rule-based Chatbot
+Machine Learning pipeline with interactive Streamlit dashboard.
 
 ---
 
-# 🌐 Connect With Me
+# 🛠 Languages & Technologies
 
 <p align="center">
 
-<a href="https://www.linkedin.com/in/likuna-swain-b25208346">
-<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
-</a>
+<img src="https://skillicons.dev/icons?i=java,python,c,js,html,css"/><br><br>
 
-<a href="mailto:satyaprakashrout435@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"/>
-</a>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask"/><br><br>
+
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb"/><br><br>
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman"/>
 
 </p>
+
+---
+
+# 🤖 AI / ML
+
+- Machine Learning
+- Deep Learning
+- TensorFlow
+- Scikit-Learn
+- CNN
+- NLP
+- Generative AI
+- Agentic AI
 
 ---
 
@@ -143,9 +91,9 @@ Machine Learning based environmental prediction system using weather datasets.
 
 <p align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=satyaprakashrout&show_icons=true&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SatyaPrakash252&show_icons=true&theme=tokyonight"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyaprakashrout&layout=compact&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SatyaPrakash252&layout=compact&theme=tokyonight"/>
 
 </p>
 
@@ -155,17 +103,17 @@ Machine Learning based environmental prediction system using weather datasets.
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=satyaprakashrout&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SatyaPrakash252&theme=tokyonight"/>
 
 </p>
 
 ---
 
-# 📈 Contribution Graph
+# 📈 GitHub Activity Graph
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=satyaprakashrout&theme=tokyo-night"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SatyaPrakash252&theme=tokyo-night"/>
 
 </p>
 
@@ -175,40 +123,47 @@ Machine Learning based environmental prediction system using weather datasets.
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=satyaprakashrout&theme=tokyonight&row=2&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=SatyaPrakash252&theme=algolia&row=2&column=4"/>
 
 </p>
 
 ---
 
-# 🐍 GitHub Contribution Snake
+# 🌐 Connect With Me
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/satyaprakashrout/satyaprakashrout/output/github-contribution-grid-snake-dark.svg"/>
+<a href="https://www.linkedin.com/in/likuna-swain-b25208346/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:satyaprakashrout435@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
 </p>
 
 ---
 
-# 👀 Profile Views
+# 💡 Currently Exploring
 
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=satyaprakashrout&label=Profile%20Views&color=blueviolet&style=for-the-badge"/>
-
-</p>
-
----
-
-# 💡 Quote
-
-> "Code. Learn. Build. Repeat."
+- 🤖 Generative AI
+- 🧠 Agentic AI
+- ⚡ FastAPI
+- ☁️ Cloud Computing
+- 📚 Data Structures & Algorithms
+- 🏗 System Design
 
 ---
 
+# 📌 Fun Fact
+
+> *"I enjoy turning ideas into real-world software and explaining complex concepts in a simple way."*
+
+---
+
 <p align="center">
 
-⭐ Thanks for visiting my profile!
+⭐ Thanks for visiting my profile! If you like my work, consider giving a ⭐ to my repositories.
 
 </p>
