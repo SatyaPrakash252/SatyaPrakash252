@@ -1,63 +1,214 @@
-<h1 align="center">Hi 👋, I'm Satyaprakash Rout</h1>
-<h3 align="center">💻 B.Tech CSE'27 | AIML Enthusiast | Full-Stack Developer | Programmer</h3>
+<!-- ========================= -->
+<!--        HERO BANNER        -->
+<!-- ========================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=435&lines=I'm+a+Developer+from+India!;Love+Building+Smart+Apps.;Learning+ML+%26+Backend+Daily!" alt="Typing SVG" />
+  <img src="./assets/dark.svg#gh-dark-mode-only" width="100%" alt="GitHub Banner"/>
+  <img src="./assets/light.svg#gh-light-mode-only" width="100%" alt="GitHub Banner"/>
+</p>
+
+<h1 align="center">
+Hi 👋 I'm Satyaprakash Rout
+</h1>
+
+<h3 align="center">
+💻 B.Tech CSE'27 • AI/ML Enthusiast • Full Stack Developer • Java Programmer
+</h3>
+
+<p align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Enthusiast;Java+%7C+Python+Developer;DSA+Learner;Always+Learning+Something+New+🚀" />
+
 </p>
 
 ---
 
-### 🙋‍♂️ About Me
-- 🌱 Currently exploring **AI/ML, FastAPI, Full-Stack Development**
-- 🤝 Looking to collaborate on **Python/Java projects & smart backend systems**
-- 🧠 Skilled in **Java, Python, React, FastAPI, Flask, MySQL, SQLite**
-- 💬 Ask me about **DSA, API design, and backend systems**
-- 📫 Reach me at: `satyaprakashrout435@gmail.com`
-- ⚡ Fun fact: *I enjoy explaining tech concepts like a teacher!*
+# 👨‍💻 About Me
+
+- 🎓 B.Tech Computer Science Engineering (2027)
+- 🌱 Currently preparing for **Infosys, Cognizant & Product Based Companies**
+- 💻 Passionate about Backend Development, AI & Machine Learning
+- 🧠 Practicing Data Structures & Algorithms in Java
+- 🚀 Building Full Stack Applications with React + FastAPI + Flask
+- 🤖 Interested in Computer Vision, NLP and Intelligent Systems
+- 🏆 Love solving real-world problems using technology
 
 ---
 
-### 🛠️ Languages and Tools:
+# 🚀 Current Focus
+
+- 📚 DSA in Java
+- 🤖 Machine Learning
+- ⚡ FastAPI
+- 🌐 React
+- ☁️ Backend Development
+- 🧠 System Design
+- 💼 Placement Preparation
+
+---
+
+# 🛠 Tech Stack
+
+### Languages
+
 <p>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-FF6C37?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+
+<img src="https://skillicons.dev/icons?i=java,python,c,js,html,css"/>
+
+</p>
+
+### Frameworks
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=react,fastapi,flask,nodejs,express"/>
+
+</p>
+
+### Database
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=mysql,sqlite,mongodb"/>
+
+</p>
+
+### Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma"/>
+
 </p>
 
 ---
 
-### 📊 GitHub Stats:
+# 📂 Featured Projects
+
+### 🤖 Diabetes Prediction using Machine Learning
+
+- Python
+- Scikit-Learn
+- Flask
+- ML Classification
+
+---
+
+### 🌉 VaakSetu
+
+Real-Time Dialect-Aware Voice AI with Multi-Signal Threat Detection for Emergency Helpline.
+
+Tech:
+
+- Python
+- NLP
+- Whisper
+- LLM
+- Voice AI
+
+---
+
+### 🌍 Air Quality & Heatwave Prediction
+
+Machine Learning based environmental prediction system using weather datasets.
+
+---
+
+### 🎫 AI Museum Ticket Booking Chatbot
+
+- React
+- Node.js
+- MongoDB
+- Rule-based Chatbot
+
+---
+
+# 🌐 Connect With Me
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=satyaprakashrout&show_icons=true&theme=radical" alt="Satya's GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=satyaprakashrout&theme=radical" alt="GitHub Streak"/>
+
+<a href="https://www.linkedin.com/in/likuna-swain-b25208346">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:satyaprakashrout435@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail"/>
+</a>
+
 </p>
 
 ---
 
-### 🏆 GitHub Trophies
+# 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=satyaprakashrout&theme=radical&row=2&column=4" alt="Trophies"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=satyaprakashrout&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyaprakashrout&layout=compact&theme=tokyonight"/>
+
 </p>
 
 ---
 
-### 📌 LinkedIn
+# 🔥 GitHub Streak
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/satyaprakash-rout-923393289/" target="_blank">
-    <img src="https://img.shields.io/badge/Satya%20Prakash%20Rout-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=satyaprakashrout&theme=tokyonight"/>
+
 </p>
 
 ---
 
-### 📈 Most Used Language
-```text
-Java      ████████████████████████████████ 100%
+# 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=satyaprakashrout&theme=tokyo-night"/>
+
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=satyaprakashrout&theme=tokyonight&row=2&column=4"/>
+
+</p>
+
+---
+
+# 🐍 GitHub Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/satyaprakashrout/satyaprakashrout/output/github-contribution-grid-snake-dark.svg"/>
+
+</p>
+
+---
+
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=satyaprakashrout&label=Profile%20Views&color=blueviolet&style=for-the-badge"/>
+
+</p>
+
+---
+
+# 💡 Quote
+
+> "Code. Learn. Build. Repeat."
+
+---
+
+<p align="center">
+
+⭐ Thanks for visiting my profile!
+
+</p>
