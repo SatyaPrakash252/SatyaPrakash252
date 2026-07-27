@@ -1,0 +1,5 @@
+pillow==11.1.0
+# optional, for best-quality background removal + contrast (local use only):
+# numpy
+# opencv-python
+# rembg
