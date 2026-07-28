@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 874 110" width="874" height="110" role="img" aria-label="GitHub stats panel">
+  <defs>
+    <pattern id="grid-stats" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0 L0 0 0 16" fill="none" stroke="#1c4a66" stroke-opacity="0.2" stroke-width="0.5"/>
+    </pattern>
+    <style>
+      .label { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 10px; letter-spacing: 0.6px; }
+      .value { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 20px; font-weight: bold; }
+      .block {
+        opacity: 0;
+        transform: translateY(6px);
+        animation: rise 0.5s ease-out forwards;
+      }
+      @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+      .bar-fill {
+        transform-box: fill-box;
+        transform-origin: left;
+        transform: scaleX(0);
+        animation: fill-bar 0.7s ease-out forwards;
+      }
+      @keyframes fill-bar { to { transform: scaleX(1); } }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="874" height="110" fill="#050b14"/>
+  <rect x="0" y="0" width="874" height="110" fill="url(#grid-stats)"/>
+  
+    <g class="block" style="animation-delay:0.0s">
+      <rect x="16" y="16" width="200" height="78" rx="6" fill="#081221" stroke="#1c4a66" stroke-width="1"/>
+      <text class="label" x="30" y="38" fill="#7fa8c2">REPOS</text>
+      <text class="value" x="30" y="64" fill="#c9f0ff">15</text>
+      <rect x="30" y="76" width="172" height="4" rx="2" fill="#1c4a66"/>
+      <rect class="bar-fill" x="30" y="76" width="129" height="4" rx="2" fill="#7fd8ff" style="animation-delay:0.2s"/>
+    </g>
+    <g class="block" style="animation-delay:0.15s">
+      <rect x="230" y="16" width="200" height="78" rx="6" fill="#081221" stroke="#1c4a66" stroke-width="1"/>
+      <text class="label" x="244" y="38" fill="#7fa8c2">FOLLOWERS</text>
+      <text class="value" x="244" y="64" fill="#c9f0ff">10</text>
+      <rect x="244" y="76" width="172" height="4" rx="2" fill="#1c4a66"/>
+      <rect class="bar-fill" x="244" y="76" width="68" height="4" rx="2" fill="#7fd8ff" style="animation-delay:0.35s"/>
+    </g>
+    <g class="block" style="animation-delay:0.3s">
+      <rect x="444" y="16" width="200" height="78" rx="6" fill="#081221" stroke="#1c4a66" stroke-width="1"/>
+      <text class="label" x="458" y="38" fill="#7fa8c2">FOLLOWING</text>
+      <text class="value" x="458" y="64" fill="#c9f0ff">9</text>
+      <rect x="458" y="76" width="172" height="4" rx="2" fill="#1c4a66"/>
+      <rect class="bar-fill" x="458" y="76" width="60" height="4" rx="2" fill="#7fd8ff" style="animation-delay:0.5s"/>
+    </g>
+    <g class="block" style="animation-delay:0.45s">
+      <rect x="658" y="16" width="200" height="78" rx="6" fill="#081221" stroke="#1c4a66" stroke-width="1"/>
+      <text class="label" x="672" y="38" fill="#7fa8c2">TOP LANG</text>
+      <text class="value" x="672" y="64" fill="#c9f0ff">Python</text>
+      <rect x="672" y="76" width="172" height="4" rx="2" fill="#1c4a66"/>
+      <rect class="bar-fill" x="672" y="76" width="154" height="4" rx="2" fill="#7fd8ff" style="animation-delay:0.65s"/>
+    </g>
+</svg>
