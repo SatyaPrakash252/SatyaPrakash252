@@ -1,6 +1,12 @@
 <div align="center">
 
-<h3><code>satya@github ~ $ whoami</code></h3>
+<img src="./assets/emblem.svg" width="180" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=7FD8FF&background=00000000&center=true&vCenter=true&width=700&lines=SYSTEM+ONLINE...;IDENTITY+CONFIRMED%3A+SATYAPRAKASH+ROUT;NIGHT+WATCH+PROTOCOL+ENGAGED;WELCOME+TO+THE+TERMINAL" alt="Typing SVG" />
+
+<br/>
+
+<h3><code>satya@nightwatch ~ $ ./identity.sh</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./assets/avi-ascii.svg" width="370" /></td>
@@ -8,30 +14,35 @@
   </tr>
 </table>
 
+<br>
+
+<h3><code>satya@nightwatch ~ $ ./telemetry.sh</code></h3>
+<img src="./assets/stats-panel.svg" width="860" />
+
 <br><br>
 
-<h3><code>satya@github ~ $ ./contributions.sh</code></h3>
+<h3><code>satya@nightwatch ~ $ ./activity_scan.sh</code></h3>
 <img src="./assets/contrib-heatmap.svg" width="860" />
 
 </div>
 
 ---
 
-## 🙋‍♂️ About Me
+## 🛰️ About Me
 
 - 🎓 B.Tech Computer Science Engineering (2023 – 2027)
 - 🌱 Currently learning **Machine Learning, Generative AI, FastAPI & System Design**
 - 💼 Preparing for **Software Engineering & Product-Based Company interviews**
 - 🤖 Passionate about **AI, backend development, and intelligent systems**
 - 🧠 Strong foundation in **Java, Python, Data Structures & Algorithms**
-- 📫 Reach me at **satyaprakashrout435@gmail.com**
+- 📫 Reach me at **<satyaprakashrout435@gmail.com>**
 
 ---
 
 ## 🚀 Featured Projects
 
 | Project | Description | Stack |
-|---|---|---|
+| --- | --- | --- |
 | 🩺 **[Project CURA](https://github.com/SatyaPrakash252/Agent-CURA)** | Agentic clinical documentation platform | FastAPI, Next.js, Groq, JWT, Docker, AI Agents |
 | 🌱 **Plant Health Detection** | CNN-based plant disease detection | TensorFlow, OpenCV |
 | 🎬 **[Movie Portal](https://github.com/SatyaPrakash252/movie-portal-flask)** | Netflix-style movie platform | Flask, SQLite, TMDB API |
@@ -49,7 +60,7 @@
 
 ---
 
-## 🌐 Connect With Me
+## 📡 Connect With Me
 
 <div align="center">
 
