@@ -6,6 +6,14 @@ portrait that types itself in row by row, then freezes (no looping).
 Run locally after prep_photo.py, once per photo:
 
     python scripts/make_ascii_svg.py
+
+Uses CSS @keyframes + clip-path for the reveal (not SMIL <animate>) —
+SMIL animations are unreliable when an SVG is loaded via a plain <img>
+tag, which is how GitHub displays README images. CSS keyframes are the
+same technique used successfully in info-card.svg and
+contrib-heatmap.svg, and every color is also set as a fallback inline
+attribute, so the portrait is fully visible even in a renderer that
+strips <style> or ignores animations entirely.
 """
 
 import os
@@ -24,10 +32,11 @@ ROWS = 53
 CHAR_W = 5.6
 CHAR_H = 10
 PAD = 14
-FILL_COLOR = "#c9d1d9"   # single light-gray fill — no per-char color, stays clean
+FILL_COLOR = "#c9d1d9"     # light gray text
+BG_COLOR = "#0d1117"       # terminal-dark background
 
-ROW_WIPE_S = 0.6          # time for one row to wipe in
-ROW_STAGGER_S = 0.045     # delay added per subsequent row
+ROW_WIPE_S = 0.5           # time for one row to wipe in
+ROW_STAGGER_S = 0.04       # delay added per subsequent row
 
 
 def to_ascii_lines(img: Image.Image, cols: int, rows: int):
@@ -47,22 +56,18 @@ def to_ascii_lines(img: Image.Image, cols: int, rows: int):
 def build_svg(lines) -> str:
     width = PAD * 2 + COLS * CHAR_W
     height = PAD * 2 + ROWS * CHAR_H
+    total_duration = round(ROW_STAGGER_S * len(lines) + ROW_WIPE_S, 3)
 
     rows_svg = []
     for i, line in enumerate(lines):
         y = PAD + (i + 1) * CHAR_H
         safe = html.escape(line).replace(" ", "&#160;")
         delay = round(i * ROW_STAGGER_S, 3)
-        row_width = len(line) * CHAR_W
-        rows_svg.append(f'''
-    <g class="row" style="animation-delay:{delay}s">
-      <clipPath id="rowclip{i}"><rect x="0" y="0" width="0" height="{CHAR_H + 2}"><animate attributeName="width" from="0" to="{row_width}" dur="{ROW_WIPE_S}s" begin="{delay}s" fill="freeze"/></rect></clipPath>
-      <text class="ascii-row" x="{PAD}" y="{y}" clip-path="url(#rowclip{i})">{safe}</text>
-      <rect class="cursor" x="{PAD}" y="{y - CHAR_H + 2}" width="2" height="{CHAR_H}">
-        <animate attributeName="x" from="{PAD}" to="{PAD + row_width}" dur="{ROW_WIPE_S}s" begin="{delay}s" fill="freeze"/>
-        <animate attributeName="opacity" from="1" to="0" dur="0.15s" begin="{delay + ROW_WIPE_S}s" fill="freeze"/>
-      </rect>
-    </g>''')
+        rows_svg.append(
+            f'<g class="row" style="animation-delay:{delay}s">'
+            f'<text class="ascii-row" x="{PAD}" y="{y}" fill="{FILL_COLOR}">{safe}</text>'
+            f'</g>'
+        )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="ASCII portrait">
   <style>
@@ -72,8 +77,17 @@ def build_svg(lines) -> str:
       fill: {FILL_COLOR};
       white-space: pre;
     }}
-    .cursor {{ fill: {FILL_COLOR}; }}
+    .row {{
+      clip-path: inset(0 100% 0 0);
+      animation: wipe {ROW_WIPE_S}s steps(30, end) forwards;
+      animation-delay: 0s;
+    }}
+    @keyframes wipe {{
+      from {{ clip-path: inset(0 100% 0 0); }}
+      to   {{ clip-path: inset(0 0 0 0); }}
+    }}
   </style>
+  <rect x="0" y="0" width="{width}" height="{height}" rx="10" fill="{BG_COLOR}"/>
   {''.join(rows_svg)}
 </svg>
 '''

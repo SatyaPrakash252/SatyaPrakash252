@@ -1,10 +1,5 @@
 <div align="center">
 
-<h3><code>satya@github ~ $ ./contributions.sh</code></h3>
-<img src="./assets/contrib-heatmap.svg" width="860" />
-
-<br><br>
-
 <h3><code>satya@github ~ $ whoami</code></h3>
 <table>
   <tr>
@@ -12,6 +7,11 @@
     <td valign="top"><img src="./assets/info-card.svg" width="490" /></td>
   </tr>
 </table>
+
+<br><br>
+
+<h3><code>satya@github ~ $ ./contributions.sh</code></h3>
+<img src="./assets/contrib-heatmap.svg" width="860" />
 
 </div>
 
@@ -55,7 +55,7 @@
 
 <!-- ⚠️ this currently points to a LinkedIn profile named "likuna-swain",
      which doesn't match your name — swap in your own LinkedIn URL. -->
-<a href="https://www.linkedin.com/in/satyaprakash-rout-923393289/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:satyaprakashrout435@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
